@@ -1,3 +1,3 @@
 
 RewriteEngine On
-RewriteRule ^([^\.]+)\.(png|jpg|gif)$    index.php?file=$1.$2 [NC,L]
+RewriteRule ^(.+)\.(png|jpg|gif|bmp)$    index.php?file=$1.$2 [NC,L]
